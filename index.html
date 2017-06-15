@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>News</title>
+</head>
+<body>
+<h1>The New York Times</h1>	
+<button id="btn">Fresh articles</button>
+
+<div id="ny-info"></div>
+    <!--<script>
+	function loadJSON() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.open("GET", "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=23227d1cf38c49f98e701918f0d46fe4", true);
+		xhttp.onload = function() {
+	    var myData = myRequest.responseText;
+};
+		xhttp.send();
+	}
+</script>-->
+
+ <script>
+    function loadJSON() {
+    	window.location.assign("https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=23227d1cf38c49f98e701918f0d46fe4")
+    }		
+    </script>
+</body>
+
+<input type="button" value="news"
+onclick="loadJSON()">
+<script src="script.js"></script>
+
+</html>
