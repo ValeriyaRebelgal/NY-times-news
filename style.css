@@ -1,0 +1,108 @@
+/* New York Times - news style */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: Georgia, Times, serif;
+	font-size: 30px; 
+	padding: 10px;
+}
+
+#btn {
+	text-align: center;
+    height: 45px;
+    width: 110px;
+    background: 
+    margin: 0 auto;
+    color: 0 auto;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#container {
+	width:  720px;
+	margin: 0 auto;
+}
+
+.articles {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	background: white;
+	text-align: center;
+	text-orientation: center;
+	text-transform: uppercase;
+
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.image {
+	width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.description {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-orientation: center;
+	text-transform: lowercase;
+	padding-top: 10px;
+}
+
+.author {
+    font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	text-orientation: center;
+	text-transform: capitalize;
+}
+
+.data {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	text-orientation: center;
+	text-transform: lowercase;
+}
+
+
+a:link {
+	color: blue;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+	color: #228B22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
