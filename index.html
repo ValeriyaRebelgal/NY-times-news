@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,17 +14,24 @@
 </head>
 
 <body>
-<h1>The New York Times</h1>	
-<button id="btn" class="onclick">Fresh articles</button>
+<h1>News Worldwide!</h1>
+<!--News Selectors-->	
+<select id="source">
+<option value="bbc-news" selected>bbc news</option>    
+<option value="cnn">cnn</option>
+<option value="the-new-york-times">the new york times</option>
+<option value="the-sport-bible">the sport bible</option>
+<option value="independent">independent</option>
+</select>
+
+
+<select id="sortBy">
+<option value="top" selected>top</option>   
+<option value="latest">latest</option>
+<option value="popular">popular</option>
+</select>
+<button id="btn" class="onclick">News</button>
 <div id="ny-info"></div>
-
-<div
-  data-min-width-320='<img src=lo-fi.png alt="image @ 320+ viewports">' 
-  data-min-width-961='<img src=hi-fi.png alt="image @ 961+ viewports">'
-  text-only @ <320px and no-js>
-</div>
-
-
 <!-- Attribution Link to Newsapi-->
 <a href="https://newsapi.org">Newsapi.org</a>
 
