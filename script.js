@@ -49,7 +49,13 @@ btn.onclick = function() {
 
 function renderHTML(data) {
   var content = '';
-  
+ //Sort By Error fixing
+  var status = true;
+  if (data.status === 'error') {
+    alert(data.message);
+  } else {
+    alert();
+  }
 
   //iteration throw news list
   data.articles.forEach(function (article){
