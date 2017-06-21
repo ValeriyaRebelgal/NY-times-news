@@ -54,9 +54,6 @@ function renderHTML(data) {
   if (data.status === 'error') {
     alert(data.message);
   } else {
-    alert();
-  }
-
   //iteration throw news list
   data.articles.forEach(function (article){
     //article object
@@ -75,6 +72,7 @@ function renderHTML(data) {
     content += "</div>";
   });
   nyContainer.innerHTML = content;
+}
 }
 /** Change date format and display changes
 */
