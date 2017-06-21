@@ -78,9 +78,14 @@ function renderHTML(data) {
 }
 /** Change date format and display changes
 */
+/** Change date format and display changes
+*/
 function getFormatedDate(date) {
-var formatedDate = new Date(); 
-return formatedDate;
+var monthNames = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep','Oct','Nov', 'Dec'];
+var day = date.getDate();
+var monthIndex = date.getMonth();
+var year = date.getFullYear();
+return day + ' ' + monthNames[monthIndex] + ' ' + year;
 }
 
 
