@@ -87,6 +87,8 @@ var monthIndex = date.getMonth();
 var year = date.getFullYear();
 return day + ' ' + monthNames[monthIndex] + ' ' + year;
 }
-
-
+//Add a "0" to numbers 1-9
+function AddZero(num) {
+return (num >= 0 && num < 10) ? "0" + num : num + "";
+}
 
